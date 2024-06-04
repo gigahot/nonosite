@@ -1,0 +1,207 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Antique&display=swap');
+
+body{
+    font-family: "Shippori Antique", sans-serif;
+    font-size: 18px;
+    color: #121212;
+}
+.innerWrap{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 50px 20px 0;
+}
+
+header{
+    background: url(./農場03.jpg) no-repeat right center/cover;
+}
+.ffosefin{
+    font-family: "Shippori Antique", sans-serif;
+}
+
+header h1{
+    padding-top: 120px;
+    padding-bottom: 10px;
+    font-family: "Dancing Script", cursive;
+    font-size: 72px;
+    margin: 0;
+}
+header h2 {
+    padding-bottom: 230px; /* 調整填充以符合 h2 */
+    font-family: "Dancing Script", cursive;
+    font-size: 60px; /* 設置 h2 字體大小 */
+    margin: 0;
+}
+
+header nav{
+    position: fixed;
+    left: 0;
+    top: 20px;
+    z-index: 100;
+    width: 100%;
+    
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1240px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    list-style: none;
+}
+header nav ul a{
+    text-decoration: none;
+    color: rgb(6, 170, 64);
+}
+header nav ul a:hover{
+    color: crimson;
+}
+/* main*/
+main h2{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 0.5em;
+    margin-bottom: 80px;
+    color: rgb(245, 147, 155);
+}
+.msgSec{
+    background-color: rgb(252, 245, 236);
+}
+.msgSec p{
+    text-align: center;
+    line-height: 1.75;
+    margin-bottom: 40px;
+}
+.msgSec p .illust{
+    margin-top: 80px;
+    margin-bottom: 0;
+    position: center;
+}
+.msgSec .illust img {
+    width: 20%; /* 調整圖片寬度，50% 可以根據需要調整 */
+    height: auto; /* 確保圖片按比例縮放 */
+}
+/*Date*/
+.dateSec{
+    background-color: #fff;
+    padding-bottom: 120px;
+}
+
+.dateSec .picture01 img {
+    width: 100%; /* 調整圖片寬度，50% 可以根據需要調整 */
+    height: auto; /* 確保圖片按比例縮放 */
+}
+
+.dateSec .layoutWrap02 {
+    display: flex;
+    justify-content: flex-end; /* 将内容靠右对齐 */
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.dateSec .picture02 img {
+    width: 100%; /* 調整圖片寬度，50% 可以根據需要調整 */
+    height: auto; /* 確保圖片按比例縮放 */
+}
+.dateSec .layoutWrap01, .layoutWrap02, .layoutWrap03{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+/* .dateSec .layoutWrap >p{
+    flex-basis: 735px;
+}
+.dateSec .layoutWrap >div{
+    flex-basis: 465px;
+    padding-top: 100px;
+} */
+.dateSec .dateDetailSec{
+    font-size: 36px;
+    margin: 0 0 170px -100px;
+    background-color: #fff;
+    padding: 40px 64px;
+    line-height: 1.2;
+    color: burlywood;
+}
+.world1{font-size: 50px; color: cadetblue;}
+.world2{font-size: 40px;color: cadetblue;}
+.world3{font-size: 60px;color: rgb(27, 131, 134);}
+
+.accessSec{
+    margin-left: 48px;
+}
+.accessSec h3{
+    color: #cfafa3;
+    font-size: 55px;
+    letter-spacing: 0.5em;
+    margin-bottom: 8px;
+}
+.accessSec p{
+    line-height: 1.6;
+}
+/* form */
+.formSec{
+    background: #efe8d9;
+    padding-bottom: 60px;
+}
+form{
+    width: 600px;
+    margin: 0 auto;
+}
+input[type="text"],
+input[type="email"],
+input[type="cellphone"],
+input[type="date"],
+select,
+textarea{
+    border: 1px solid #cccccc;
+    background: #fff;
+    width: 100%;
+    margin-top: 5px;
+    padding: 4px 8px;
+}
+input[type="radio"],
+input[type="checkbox"]{
+    width: 16px;
+    height: 16px;
+    vertical-align: baseline;
+    margin-right: 4px;
+}
+.attendRadio{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.attendRadio label{
+    margin: 0 20px;
+    font-size: 22px;
+}
+.allergyCheck label{
+    margin-right: 24px;
+}
+select{
+    background: #fff url(./images/arrow.png) no-repeat 98% 50%/17px 10px;
+}
+textarea{
+    height: 148px;
+    margin-bottom:  30px;
+}
+form >p{
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.submitBtn{
+    text-align: center;
+}
+input[type="submit"]{
+    background: #121212;
+    color: #fff;
+    padding: 18px 80px;
+}
+footer{
+    background: #c7887f;
+    color: #f3e9e5;
+    padding: 14px 10px 20px;
+    text-align: center;
+}

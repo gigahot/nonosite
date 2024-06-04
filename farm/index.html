@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="innerWrap">
+            <h1>Welcome to <br></h1>
+            <h2>Happy Farm</h2>
+        <nav>
+            <ul class="ffosefin">
+                <li><a href="#msgArea">Message</a></li>
+                <li><a href="#dateArea">Campaign</a></li>
+                <li><a href="#formArea">Form</a></li>
+            </ul>
+           
+        </nav>
+        </div>
+    </header>
+    <!-- 主要區塊 -->
+    <main>
+        <section class="msgSec" id="msgArea">
+            <div class="innerWrap">
+                <h2 class="ffosefin">Message</h2>
+                <p>各位大朋友小朋友你們好<br>
+                想要認識animal嗎?<br>
+                想要與animal互動嗎?</p>
+                <p>想要知道更多可以瀏覽此網站並填寫一下表單</p>
+                <p class="illust"><img src="./農場06.png" alt=""></p>
+            </div>
+        </section>
+        <!-- date -->
+        <section class="dateSec" id="dateArea">
+            <div class="innerWrap">
+                <h2 class="ffosefin">Interactive Campaign</h2>
+                <div class="layoutWrap01">
+                    <p class="picture01"><img src="./農場07.png" alt=""></p>
+                    <div>
+                        <p class="dateDetailSec">
+                            餵食活動
+                            <!-- 2024.08.08<span class="world1">Thu</span><br>
+                            <span class="world2">Start</span><span class="world3">18:30-</span> -->
+                        </p>
+                        <!-- <section class="accessSec">
+                            <h3 class="ffosefin">Access</h3>
+                            <p>紅磚街1-2-3號<br>
+                            Ristorante Capita<br>
+                            03-xxxx-xxxxx<br>
+                        </p>
+                        </section> -->
+                    </div>
+                </div>
+
+                <div class="layoutWrap02">
+                    <div>
+                        <p class="dateDetailSec">
+                            一日牧羊人
+                            <!-- 2024.08.08<span class="world1">Thu</span><br>
+                            <span class="world2">Start</span><span class="world3">18:30-</span> -->
+                        </p>
+                    </div>
+                    <p class="picture02"><img src="./農場08.png" alt=""></p>
+                </div>
+
+                <div class="layoutWrap03">
+                    <p class="picture03"><img src="./農場09.png" alt=""></p>
+                    <div>
+                        <p class="dateDetailSec">
+                            神"騎"小子
+                            <!-- 2024.08.08<span class="world1">Thu</span><br>
+                            <span class="world2">Start</span><span class="world3">18:30-</span> -->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- form -->
+        <section class="formSec" id="formArea"></section>
+        <div class="innerWrap">
+            <h2 class="ffosefin">RSVP</h2>
+            <form action="">
+                <!-- <p class="attendRadio">
+                    <label for="attend_yes">參加</label>
+                    <input type="radio" id="attend_yes" name="attend" value="參加" checked>
+                    <label for="attend_no">不參加</label>
+                    <input type="radio" id="attend_no" name="attend" value="不參加">
+                </p> -->
+                <p>
+                    姓名<input type="text" name="user_name">
+                </p>
+                <p>
+                    電子郵件<input type="email" name="user_mail">
+                </p>
+                <p>
+                    電話號碼<input type="cellphone" name="user_cellphone">
+                </p>
+                <p>
+                    參加日期<input type="date" name="user_date">
+                </p>
+                <!-- <p>
+                    <select name="user_type" id="">
+                        <option value="草食動物">草食動物</option>
+                        <option value="肉食動物">肉食動物</option>
+                    </select>
+                </p> -->
+                <p class="allergyCheck">想參與的活動項目<br>
+                    <label><input type="checkbox" name="allergy" value="餵食活動">餵食活動</label>
+                    <label><input type="checkbox" name="allergy" value="一日牧羊人">一日牧羊人</label>
+                    <label><input type="checkbox" name="allergy" value="神"騎"小子">神"騎"小子</label>
+                </p>
+                <p class="submitBtn">
+                    <input type="submit" value="Send" class="ffosefin">
+                </p>
+            </form>
+            
+            </form>
+        </div>
+    </main>
+    <footer class="ffosefin">
+        <p><small>&copy;2024 yuyuca</small></p>
+    </footer>
+
+</body>
+</html>
